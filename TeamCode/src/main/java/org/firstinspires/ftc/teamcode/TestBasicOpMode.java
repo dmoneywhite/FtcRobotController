@@ -60,7 +60,7 @@ public class TestBasicOpMode extends OpMode {
     private ElapsedTime runtime = new ElapsedTime();
     private DcMotor leftDrive = null;
     private DcMotor rightDrive = null;
-
+    private DcMotor garbageDrive = null;
     /*
      * Code to run ONCE when the driver hits INIT
      */
